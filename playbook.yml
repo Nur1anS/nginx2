@@ -1,0 +1,6 @@
+---
+- hosts: nur
+  become: true
+  roles:
+    - nginx
+  
